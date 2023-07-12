@@ -13,10 +13,6 @@ const noto = Noto_Sans({
   weight: ["400", "500", "700"],
 });
 
-export const metadata = {
-  title: "Movies and Series",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
